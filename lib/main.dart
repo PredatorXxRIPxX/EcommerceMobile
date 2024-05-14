@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import './view/Homepage.dart';
 import './view/Login.dart';
 import './view/Profile.dart';
 import './view/Signin.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  //await dotenv.load(fileName: "api/.env");
   runApp(const MyApp());
 }
 
