@@ -39,7 +39,6 @@ class _OrdersState extends State<Orders> {
                   "Pay all now",
                   style: TextStyle(
                       color: Colors.white,
-                      backgroundColor: Colors.red,
                       fontWeight: FontWeight.bold),
                 ))
           ],
